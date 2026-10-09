@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.congreso.root"
+  DTS:DTSID="{2D96250B-8E08-4774-A850-7B56D2AB28AB}"
+  DTS:CreationName="ADO.NET:MySql.Data.MySqlClient.MySqlConnection, MySql.Data, Version=9.6.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="server=localhost;user id=root;database=congreso;">
+      <DTS:Password
+        DTS:Name="password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANVMjP6UpkkW4Q/bPNdCmIwAAAAACAAAAAAAQZgAAAAEAACAAAABg69uOGj1ss3I40VtGJUxeAl6oSZpzfKYSkxwePhvyRQAAAAAOgAAAAAIAACAAAABofJovuxzsd6+4sy4gt+wYXKfXSLVkEx46Q42isemm6XAAAAAUZFkRuihhJJrmJpruYVR+kYGO6UpE9u5eA86aRt7r4V/YftGo6kNk4oGZAFUBdalzbr3UzWiWP3pfccYp08yZnTFn9BXoYiNokUkPw/hHriIFmZuFGcmQtN6XSFEmDy/NCemFyILbrm8WvWfl+B83QAAAAIkMy+uo+e/5sEAL3g0CStAQPbZ71/tC2pGUgKo5X446bLjlATxzpoP9zhd9Q8aD+v0NSev7OBEGhqjM1lAJgvI=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

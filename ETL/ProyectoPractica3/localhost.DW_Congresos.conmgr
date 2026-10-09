@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.DW_Congresos"
+  DTS:DTSID="{D5BF77D5-EF73-4963-9054-3DA06F0753C6}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=DW_Congresos;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-ProyectoPractica3-{D5BF77D5-EF73-4963-9054-3DA06F0753C6}localhost.DW_Congresos;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
