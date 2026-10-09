@@ -35,7 +35,7 @@ Para la explotación de la información y la toma de decisiones, se construyó u
 
 * **Bases de Datos:** MySQL (OLTP), SQL Server (OLAP / Data Warehouse).
 * **Lenguajes:** SQL, Python.
-* **Librerías de Python:** `pandas`, librerías de generación random/faker.
+* **Librerías de Python:** pandas, librerías de generación random/faker.
 * **Herramientas ETL/BI:** Visual Studio (SSIS), SQL Server Analysis Services (SSAS) para el cubo de datos.
 
 ---
