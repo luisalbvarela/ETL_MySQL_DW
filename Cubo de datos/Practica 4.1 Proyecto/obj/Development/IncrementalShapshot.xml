@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DW_Congresos</Database>
+    <Server>.\SQLEXPRESS</Server>
+    <ConnectionString>Data Source=.\SQLEXPRESS;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>BxAFMcAwNU7m8V9+B/H61FM+TRM=22/05/2026 06:07:06 p. m.22/05/2026 04:43:56 p. m.</TimeStamp>
+        <ID>
+          <String>DW Congresos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>BSEQHORt/01L8/DE0fWeDgEGvd4=22/05/2026 05:04:01 p. m.22/05/2026 04:46:41 p. m.</TimeStamp>
+        <ID>
+          <String>DW Congresos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>R6Wnuk2M8ag7cZcA2bz+xe2Bpvg=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>DIM CONFERENCIA</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>85/+f4IkyhOnI90PXD53TaUWWWU=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>DIM PARTICIPANTE</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gxnLhJrEeU7Ij0AGLLc0pwxKImw=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>DIM ARTICULO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Jmi3qOSb015I5Aw3i4F5lqu8YAU=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>DIM TIEMPO</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>hvwNsItKKtifoIst7h1Y35fiq2s=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>DIM INSTRUCTOR</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>rgtFNWD8uRgOiAKtP1Ry/QF5j38=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>DIM TALLER</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>6rLyCGImLklh7/zsAXtPmTE2HLU=22/05/2026 05:52:41 p. m.22/05/2026 05:04:01 p. m.R2o1VEA9Zn5E94nCK0Xf79kRWD8=22/05/2026 05:04:01 p. m.22/05/2026 05:04:01 p. m.</TimeStamp>
+        <ID>
+          <String>Cubo_Congresos</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>YhqVGaKouAqCbLs56kbW8gHAsA8=22/05/2026 04:14:22 p. m.22/05/2026 04:14:22 p. m.</TimeStamp>
+      <ID>
+        <String>DW_Congresos</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-05-23T00:07:12.936667Z</LastDeployed>
+</DeploymentSnapshot>
