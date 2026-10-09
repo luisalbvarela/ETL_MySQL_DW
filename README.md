@@ -24,7 +24,7 @@ La migración de datos desde MySQL hacia el Data Warehouse en SQL Server se real
 * **Proceso ETL:** Implementado utilizando Visual Studio (SQL Server Integration Services - SSIS).
 * **Reglas de negocio:** Filtrado de datos nulos, estandarización de formatos (fechas, textos), y generación de llaves subrogadas para las dimensiones.
 
-### 5. Cubo de Datos y KPIs (Práctica 4)
+### 5. Cubo de Datos y KPIs 
 Para la explotación de la información y la toma de decisiones, se construyó un Cubo OLAP sobre el Data Warehouse.
 * **Métricas y KPIs:** Definición de indicadores clave de rendimiento.
 * **Análisis:** El cubo permite realizar cruces de información complejos (drill-down, roll-up) para analizar tendencias históricas de manera eficiente.
